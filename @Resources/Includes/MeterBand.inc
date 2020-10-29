@@ -1,21 +1,72 @@
-[MeterBand0]
-Meter=Bar
-MeasureName=MeasureBand0
-X=5
-Y=5
-W=10
-H=100
-BarImage=#@#Images\SpecBar.jpg
-SolidColor=100,100,100,255
-BarOrientation=Horizontal
+[Shapefill0]
+Meter=Roundline
+X=25
+Y=20
+W=80
+H=80
+StartAngle= 0
+RotationAngle=100
+LineLength=52
+Solid = 1
+LineColor=#Color4#
+AntiAlias=1
 
-[MeterBand1]
-Meter=Bar
-MeasureName=MeasureBand1
-X=2R
-Y=0r
-W=10
-H=100
-BarImage=#@#Images\SpecBar.jpg
-SolidColor=100,100,100,255
-BarOrientation=Horizontal
+
+
+[3]
+Meter=Roundline
+X=25
+Y=20
+W=80
+H=80
+StartAngle= (Rad(90))
+RotationAngle=(Rad(-360))
+LineLength=42
+Solid = 1
+LineColor=#Color5#
+AntiAlias=1
+DynamicVariables=1
+
+[0]
+Meter=Roundline
+MeasureName=mBand0
+X=25
+Y=20
+W=80
+H=80
+StartAngle=(Rad(90))
+RotationAngle=(Rad(360))
+LineLength=42
+Solid = 1
+LineColor=#Color1#
+AntiAlias=1
+DynamicVariables=1
+
+[2]
+Meter=Roundline
+X=25
+Y=20
+W=80
+H=80
+StartAngle= (Rad(270))
+RotationAngle=(Rad(-360))
+LineLength=32
+Solid = 1
+LineColor=#Color3#
+AntiAlias=1
+DynamicVariables=1
+
+[1]
+Meter=Roundline
+MeasureName=mBand1
+X=25
+Y=20
+W=80
+H=80
+StartAngle= (Rad(270))
+RotationAngle=(Rad(360))
+LineLength=32
+Solid = 1
+LineColor=#Color2#
+AntiAlias=1
+DynamicVariables=1
